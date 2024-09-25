@@ -60,7 +60,7 @@ nav {
 
  .nav-container ul {
  	float: right;
- 	height: 100px;
+ 	height: 50px;
  	line-height: 100px;
  	margin: 0;
 	background-color: #0033C6;
@@ -69,7 +69,7 @@ nav {
  .nav-container li {
  	list-style: none;
  	float: left;
- 	margin: 0 15px;
+ 	margin: -25px 15px;
  }
 
  .nav-container li a {
@@ -161,4 +161,8 @@ nav {
 	display: block;
 	margin-left: 480px;
 	margin-top: 5px;
+}
+
+.bars {
+	color:#FFF;
 }
