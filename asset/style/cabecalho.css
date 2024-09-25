@@ -63,6 +63,7 @@ nav {
  	height: 100px;
  	line-height: 100px;
  	margin: 0;
+	background-color: #0033C6;
  }
 
  .nav-container li {
@@ -73,7 +74,7 @@ nav {
 
  .nav-container li a {
  	text-decoration: none;
- 	color: #666;
+ 	color: #FFF;
  	transition: .5s;
  }
 
@@ -146,12 +147,18 @@ nav {
  }
 
  #txtBusca{
-   float:left;
-   background-color:transparent;
-   padding-left:10px;
-   font-size:13px;
-   border:none;.vtex-product-summary-2-x-container--summaryComplete .vtex-product-summary-2-x-image {
-   height:32px;
-	 margin-top: 10px;
-   width:191px;
+	float:left;
+	background-color: transparent;
+	padding-left: 10px;
+	font-size: 13px;
+	border: none;
+	height: 32px;
+	margin-top: 0px;
+	width:191px;
  }
+
+#icon_pesquisa {
+	display: block;
+	margin-left: 480px;
+	margin-top: 5px;
+}
