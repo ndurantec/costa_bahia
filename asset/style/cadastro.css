@@ -51,9 +51,9 @@ nav {
  }
 
  #logo {
- 	width: 50px;
- 	height: 50px;
- 	margin-top: 25px;
+ 	width: 213px;
+ 	height: auto;
+ 	margin-top: 35px;
  }
 
  .nav-container ul {
@@ -114,7 +114,7 @@ nav {
  #search-form input, #search-form select {
  	background-color: #FFF;
  	border-radius: 5px;
- 	border-color: transparent;
+ 	border-color: gray;
  	padding: 10px 20px;
  	font-size: 18px;
  	margin: 0 10px;
