@@ -1,10 +1,18 @@
-const images = ["banner1.jpg", "banner2.jpg", "banner3.jpg"];
+<script>
 let currentIndex = 0;
+const banners = document.querySelectorAll('.banner-item');
 
-function changeImage() {
-    const bannerImage = document.getElementById("banner-image");
-    currentIndex = (currentIndex + 1) % images.length;
-    bannerImage.src = images[currentIndex];
+function showBanner(index) {
+    banners.forEach((banner, i) => {
+        banner.classList.toggle('active', i === index);
+    });
 }
 
-setInterval(changeImage, 5000); // Troca a imagem a cada 5 segundos
+function moveBanner(direction) {
+    currentIndex = (currentIndex + direction + banners.length) % banners.length;
+    showBanner(currentIndex);
+}
+
+// Exibe o primeiro banner inicialmente
+showBanner(currentIndex);
+</script>
