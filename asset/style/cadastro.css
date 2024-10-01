@@ -100,8 +100,19 @@ nav {
  }
 
  #search-form h1 {
+	margin-top: 1px;
+ 	margin-bottom: 20px;
  	font-size: 40px;
+	font-weight: 300px;
  }
+
+ #search-form h2 {
+	margin-top: 1px;
+ 	margin-bottom: 20px;
+ 	font-size: 40px;
+	font-weight: 300px;
+ }
+
 
  #search-form p {
  	margin-top: 1px;
