@@ -100,12 +100,23 @@ nav {
  }
 
  #search-form h1 {
+	margin-top: 1px;
+ 	margin-bottom: 20px;
  	font-size: 40px;
+	font-weight: 300px;
  }
 
+ #search-form h2 {
+	margin-top: 10px;
+ 	margin-bottom: 20px;
+ 	font-size: 25px;
+	font-weight: 300px;
+ }
+
+
  #search-form p {
- 	margin-top: 30px;
- 	margin-bottom: 60px;
+ 	margin-top: 1px;
+ 	margin-bottom: 20px;
  	font-size: 18px;
  	font-weight: 300px;
  }
@@ -115,10 +126,20 @@ nav {
  	background-color: #FFF;
  	border-radius: 5px;
  	border-color: gray;
- 	padding: 10px 20px;
+ 	padding: 12px 25px;
  	font-size: 18px;
  	margin: 0 10px;
  }
+
+ #search-form button, #search-form select {
+	background-color: lightgray;
+	border-radius: 5px;
+	border-color: gray;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
 
 #search-form input[type=submit] {
  	background-color: #3381f3;
