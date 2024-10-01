@@ -115,10 +115,20 @@ nav {
  	background-color: #FFF;
  	border-radius: 5px;
  	border-color: gray;
- 	padding: 10px 20px;
+ 	padding: 12px 25px;
  	font-size: 18px;
  	margin: 0 10px;
  }
+
+ #search-form button, #search-form select {
+	background-color: lightgray;
+	border-radius: 5px;
+	border-color: gray;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
 
 #search-form input[type=submit] {
  	background-color: #3381f3;
