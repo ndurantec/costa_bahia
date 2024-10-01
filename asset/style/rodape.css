@@ -132,3 +132,18 @@ nav {
  	background-color: #2B79EB;
  	/*background-color: #191970;*/
  }
+ /* Lista de produtos */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.product-list div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
