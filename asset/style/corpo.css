@@ -158,7 +158,7 @@ nav {
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-    width: calc(100% * (totalCards / cardsToShow)); /* Certifique-se de que isso é correto */
+    width: calc(100% * totalCards); /* Certifique-se de que isso é correto */
 }
 
 
