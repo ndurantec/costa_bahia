@@ -185,4 +185,21 @@ nav {
 	margin: -20px 60px;
 	height: 30px;
 	width: 30px;
+	color: #0033C6;
 }
+
+.user li a {
+	color: #0033C6;
+	font-weight: inherit;
+	font-size: 15px;
+	white-space: nowrap;
+}
+
+.user li e {
+	color: #0033C6;
+	font-weight: inherit;
+	font-size: 15px;
+	white-space: nowrap;
+	position: inherit;
+}
+
