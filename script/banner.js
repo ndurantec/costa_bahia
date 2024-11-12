@@ -1,4 +1,4 @@
-<script>
+
 let currentIndex = 0;
 const banners = document.querySelectorAll('.banner-item');
 
@@ -15,4 +15,4 @@ function moveBanner(direction) {
 
 // Exibe o primeiro banner inicialmente
 showBanner(currentIndex);
-</script>
+

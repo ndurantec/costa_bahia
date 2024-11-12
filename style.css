@@ -11,6 +11,7 @@ body {
 
 h1, h2, h3, h4, h5, p, span {
 	margin: 0;
+	color: #666;
 }
 
 .container {
@@ -115,37 +116,28 @@ nav {
  	font-weight: 300px;
  }
 
+/* Formulario */
  #search-form input, #search-form select {
-	background-color: #FFF;
-	border-radius: 5px;
-	border-color: gray;
-	padding: 12px 25px;
-	font-size: 18px;
-	margin: 0 10px;
-}
-
-#search-form button, #search-form select {
-   background-color: lightgray;
-   border-radius: 5px;
-   border-color: gray;
-   padding: 10px 20px;
-   font-size: 18px;
-   margin: 0 10px;
-}
-
+ 	background-color: #FFF;
+ 	border-radius: 5px;
+ 	border-color: transparent;
+ 	padding: 10px 20px;
+ 	font-size: 18px;
+ 	margin: 0 10px;
+ }
 
 #search-form input[type=submit] {
-	background-color: #3381f3;
-	text-transform: uppercase;
-	color: #FFF;
-	cursor: pointer;
-	transition: 0.5s;
-}
+ 	background-color: #3381f3;
+ 	text-transform: uppercase;
+ 	color: #FFF;
+ 	cursor: pointer;
+ 	transition: 0.5s;
+ }
 
-#search-form input[type=submit]:hover {
-	background-color: #2B79EB;
-	/*background-color: #191970;*/
-}
+ #search-form input[type=submit]:hover {
+ 	background-color: #2B79EB;
+ 	/*background-color: #191970;*/
+ }
 
  #divBusca{
    background-color:#ffffff;
@@ -213,58 +205,6 @@ nav {
 	font-size: 15px;
 	white-space: nowrap;
 	position: inherit;
-}
-
-#banner {
-    display: flex;
-    overflow: hidden; /* Esconde o conteúdo que sai do banner */
-    width: 100%;
-    height: auto; /* Ajusta a altura automaticamente */
-}
-
-.banner-item {
-    flex: 1; /* Cada item ocupará igual espaço */
-    display: flex;
-    flex-direction: column; /* Para empilhar a imagem e o texto verticalmente */
-    align-items: center; /* Centraliza os itens horizontalmente */
-}
-
-.banner-image {
-    width: 100%;
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-.banner-text {
-    color: white; /* Cor do texto */
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para contraste */
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center; /* Centraliza o texto */
-    margin-top: 10px; /* Espaço entre a imagem e o texto */
-    width: 90%; /* Largura do texto em relação ao banner */
-}
-
-/* Setas de navegação */
-.arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 30px;
-    cursor: pointer;
-    z-index: 10; /* Garante que as setas fiquem acima dos banners */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.arrow.left {
-    left: 10px;
-}
-
-.arrow.right {
-    right: 10px;
 }
 
 .content {
@@ -346,19 +286,4 @@ nav {
 
 .next {
     right: 10px; /* Ajuste conforme necessário */
-}
-
-.product-list {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
-    padding: 20px;
-}
-
-.product-list div {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
