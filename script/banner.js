@@ -1,18 +1,26 @@
-
 let currentIndex = 0;
 const banners = document.querySelectorAll('.banner-item');
-
-function showBanner(index) {
-    banners.forEach((banner, i) => {
-        banner.classList.toggle('active', i === index);
-    });
-}
+const bannerContainer = document.getElementById('banner');
 
 function moveBanner(direction) {
-    currentIndex = (currentIndex + direction + banners.length) % banners.length;
-    showBanner(currentIndex);
+    // Calcular o novo índice
+    currentIndex += direction * 3;
+    
+    // Certificar-se de que o índice permanece dentro dos limites
+    if (currentIndex >= banners.length) {
+        currentIndex = 0;
+    } else if (currentIndex < 0) {
+        currentIndex = banners.length - 3; // Assumindo que sempre haverá múltiplos de 3 banners
+    }
+
+    // Calcular a nova posição de rolagem
+    const newTransform = -currentIndex * 100 / 3; // Dividindo por 3 pois estamos mostrando 3 itens por vez
+    
+    // Aplicar o movimento do banner
+    bannerContainer.style.transform = `translateX(${newTransform}%)`;
 }
 
-// Exibe o primeiro banner inicialmente
-showBanner(currentIndex);
+// Set the initial position
+moveBanner(0);
+
 

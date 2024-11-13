@@ -64,3 +64,13 @@ h1, h2, h3, h4, h5, p, span {
 .arrow.right {
     right: 10px;
 }
+#banner {
+    display: flex;
+    overflow: hidden; /* Esconde o conteúdo que sai do banner */
+    width: 100%;
+    transition: transform 0.5s ease-in-out; /* Transição suave */
+}
+
+.banner-item {
+    min-width: 33.33%; /* Cada item ocupará um terço do espaço visível */
+}
